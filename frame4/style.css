@@ -1,0 +1,106 @@
+#profiles {
+    background-color: blue;
+    border: 1px solid black;
+    position: absolute;
+    height: 380px;
+    width: 500px;
+    left: 63px;
+    top: 35px;
+    transform: translateX(63%) translateY(35%);
+}
+
+#photo {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    left: 130px;
+    top: 3px;
+    transform: translateX(130%) translateY(3%);
+}
+
+#rankLabel {
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: white;
+    left: 37px;
+    transform: translateX(37%);
+}
+
+#rank {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    height: 20px;
+    width: 80px;
+    left: 110px;
+    transform: translateX(110%);
+}
+
+#champion {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    margin: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 105px;
+    transform: translateX(105%);
+}
+
+#championLabel {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: white;
+    left: 34.5px;
+    transform: translateX(34.5%);
+}
+
+#ignoreButton {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 0px;
+    top: 55px;
+    transform: translateX(0%) translateY(55%);
+}
+
+#requestButton {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 20px;
+    top: 55px;
+    transform: translateX(20%) translateY(55%);
+}
+
+#line {
+    background-color: white;
+    position: relative;
+    height: 2px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    transform: translateX(0%) translateY(0%);
+}
+
+#pic {
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    color: white;
+    left: 35px;
+    transform: translateX(35%);
+}
