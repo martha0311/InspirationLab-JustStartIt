@@ -1,114 +1,65 @@
-#headerDiv {
-    background-color: black;
-    height: 100px;
-    width: 1265px; 
-    left: 0px;
-    top: 0px;
-    transform: translateX(0%) translateY(0%);
-    position: relative;
-}
-
-#settingButton {
-    background-color: blue;
-    border: 1px solid white;
-    position: absolute;
-    height: 30px;
-    width: 80px;
-    left: 610px;
-    top: 25px;
-    transform: translateX(610%) translateY(25%);
-}
-
-#settingLink {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 17px;
-    text-align: center;
-    position: relative;
-    top: 13%;
-    left: 18%;
-    transform: translateX(-18%) translateY(-13%);
-}
-
-#subscriptionButton {
-    background-color: blue;
-    border: 1px solid black;
-    position: absolute;
-    height: 30px;
-    width: 200px;
-    left: 2.5px;
-    top: 100px;
-    transform: translateX(2.5%) translateY(100%);
-}
-
-#subscriptionLink {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 17px;
-    text-align: center;
-    position: relative;
-    top: 5px;
-    left: 30px;
-    transform: translateX(-30%) translateY(-5%);
-}
-
-#FilterButton {
-    background-color: blue;
-    border: 1px solid black;
-    position: absolute;
-    height: 30px;
-    width: 100px;
-    left: 580px;
-    top: 100px;
-    transform: translateX(580%) translateY(100%);
-}
-
-#filter {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 17px;
-    text-align: center;
-    position: relative;
-    top: 8px;
-    left: 15px;
-    transform: translateX(-15%) translateY(-8%);
-}
-
-#messageButton {
-    background-color: blue;
-    border: 1px solid black;
-    position: absolute;
-    height: 30px;
-    width: 100px;
-    left: 580px;
-    top: 150px;
-    transform: translateX(580%) translateY(150%);
-}
-
-#message {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-size: 17px;
-    text-align: center;
-    position: relative;
-    top: 7px;
-    left: 15px;
-    transform: translateX(-15%) translateY(-7%);
-}
-
 #profiles {
     background-color: blue;
     border: 1px solid black;
     position: absolute;
     height: 380px;
-    width: 500px; 
+    width: 500px;
     left: 63px;
     top: 35px;
     transform: translateX(63%) translateY(35%);
+}
+
+#photo {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    left: 130px;
+    top: 3px;
+    transform: translateX(130%) translateY(3%);
+}
+
+#rankLabel {
+    position: relative;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: white;
+    left: 37px;
+    transform: translateX(37%);
+}
+
+#rank {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    height: 20px;
+    width: 80px;
+    left: 110px;
+    transform: translateX(110%);
+}
+
+#champion {
+    background-color: black;
+    border: 1px solid white;
+    position: relative;
+    margin: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 105px;
+    transform: translateX(105%);
+}
+
+#championLabel {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: white;
+    left: 34.5px;
+    transform: translateX(34.5%);
 }
 
 #ignoreButton {
@@ -131,39 +82,8 @@
     height: 30px;
     width: 100px;
     left: 20px;
-    top:55px;
+    top: 55px;
     transform: translateX(20%) translateY(55%);
-}
-
-#photo {
-    background-color: black;
-    border: 1px solid white;
-    position: relative;
-    height: 60px;
-    width: 60px;
-    border-radius: 30%;
-    left: 130px;
-    top: 3px;
-    transform: translateX(130%) translateY(3%);
-}
-
-#nameLabel {
-    position: relative;
-    margin-top: 3px;
-    margin-bottom: 2px;
-    color: white;
-    left: 35px;
-    transform: translateX(35%);
-}
-
-#name {
-    background-color: black;
-    border: 1px solid white;
-    position: relative;
-    height: 20px;
-    width: 200px;
-    left: 46px;
-    transform: translateX(46%);
 }
 
 #line {
@@ -176,65 +96,23 @@
     transform: translateX(0%) translateY(0%);
 }
 
-#rankLabel {
+#pic {
     position: relative;
-    margin-top: 4px;
+    margin-top: 3px;
     margin-bottom: 2px;
     color: white;
-    left: 37px;
-    transform: translateX(37%);
+    left: 35px;
+    transform: translateX(35%);
 }
 
-#rank {
-    background-color: black;
-    border: 1px solid white;
-    position: relative;
-    height: 20px;
-    width: 80px;
-    left: 110px;
-    transform: translateX(110%);
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
 }
 
-#characterLabel {
-    position: relative;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    color: white;
-    left: 34.5px;
-    transform: translateX(34.5%);
-}
-
-#character {
-    background-color: black;
-    border: 1px solid white;
-    position: relative;
-    margin: 10px;
-    float: left;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    left: 105px;
-    transform: translateX(105%);
-}
-
-#positionLabel {
-    position: relative;
-    margin-top: 70px;
-    margin-bottom: 2px;
-    color: white;
-    left: 34.5px;
-    transform: translateX(34.5%);
-}
-
-#position {
-    background-color: black;
-    border: 1px solid white;
-    position: relative;
-    margin: 10px;
-    float: left;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    left: 125px;
-    transform: translateX(125%);
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
 }
