@@ -1,0 +1,764 @@
+.banner {
+    background-color: black;
+    height: 100px;
+    width: 1265px; 
+    left: 0px;
+    top: 0px;
+    transform: translateX(0%) translateY(0%);
+    position: relative;
+}
+
+.settingButton {
+    background-color: blue;
+    border: 1px solid white;
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    left: 610px;
+    top: 25px;
+    transform: translateX(610%) translateY(25%);
+}
+
+.settingLink {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 13%;
+    left: 18%;
+    transform: translateX(-18%) translateY(-13%);
+}
+
+.subscriptionButton {
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+    height: 30px;
+    width: 150px;
+    top: 25px;
+    transform: translateY(25%);
+}
+
+.subscriptionLink {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 14px;
+    transform: translateX(14%) translateY(-5%);
+}
+
+.filterButton {
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+    height: 30px;
+    width: 100px;
+    left: 575px;
+    transform: translateX(575%);
+}
+
+.filter {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    transform: translateX(20%) translateY(4%);
+}
+
+.messageButton {
+    background-color: blue;
+    border: 1px solid black;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    left: 580px;
+    top: 140px;
+    transform: translateX(580%) translateY(140%);
+}
+
+.message {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    transform: translateX(10%) translateY(-7%);
+}
+
+.profiles {
+    background-color: blue;
+    border: 1px solid black;
+    position: relative;
+    height: 390px;
+    width: 500px; 
+    left: 63px;
+    top: 0px;
+    transform: translateX(63%) translateY(0%);
+}
+
+.ignoreButton {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 50px;
+    top: 270px;
+    transform: translateX(50%) translateY(270%);
+}
+
+.requestButton {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 150px;
+    top: 270px;
+    transform: translateX(150%) translateY(270%);
+}
+
+.photo {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    left: 130px;
+    top: 3px;
+    transform: translateX(130%) translateY(3%);
+}
+
+.profilePhoto {
+    border-radius: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.nameLabel {
+    position: absolute;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    color: white;
+    left: 122.5px;
+    top: 59px;
+    transform: translateX(122.5%) translateY(59%);
+}
+
+.name {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 17px;
+    width: 200px;
+    left: 46px;
+    top: 76px;
+    transform: translateX(46%) translateY(76%);
+}
+
+.nameAPI {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.line {
+    background-color: white;
+    position: absolute;
+    height: 2px;
+    width: 500px;
+    left: 0px;
+    top: 108px;
+    transform: translateX(0%) translateY(108%);
+}
+
+.rankLabel {
+    position: absolute;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: white;
+    top: 100px;
+    left: 160px;
+    transform: translateX(160%) translateY(100%);
+}
+
+.rank {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 17px;
+    width: 80px;
+    left: 109px;
+    top: 118px;
+    transform: translateX(109%) translateY(118%);
+}
+
+.rankAPI {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.characterLabel {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: white;
+    left: 120px;
+    top: 140px;
+    transform: translateX(120%) translateY(140%);
+}
+
+.character1 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 108px;
+    top: 130px;
+    transform: translateX(108%) translateY(130%);
+}
+
+.characterPic1API {
+    border-radius: 50%;
+}
+
+.character1API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.character2 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 151px;
+    top: 130px;
+    transform: translateX(151%) translateY(130%);
+}
+
+.characterPic2API {
+    border-radius: 50%;
+}
+
+.character2API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.character3 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 193px;
+    top: 130px;
+    transform: translateX(193%) translateY(130%);
+}
+
+.characterPic3API {
+    border-radius: 50%;
+}
+
+.character3API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.positionLabel {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    left: 130px;
+    top: 210px;
+    transform: translateX(130%) translateY(210%);
+}
+
+.position1 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 52px;
+    top: 285px;
+    transform: translateX(52%) translateX(285%);
+}
+
+.positionPic1API {
+    border-radius: 50%;
+}
+
+.position1API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.position2 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 95px;
+    top: 285px;
+    transform: translateX(95%) translateX(285%);
+}
+
+.positionPic2API {
+    border-radius: 50%;
+}
+
+.position2API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+@media(max-width: 1000px) {
+    .banner {
+        background-color: black;
+        height: 100px;
+        width: 710px; 
+        margin-left: 0px;
+        margin-top: 0px;
+        position: relative;
+    }
+    
+    .logo {
+        height: 100px;
+        width: 110px;
+    }
+
+    .settingButton {
+        background-color: blue;
+        border: 1px solid white;
+        position: absolute;
+        height: 30px;
+        width: 100px;
+        left: 290px;
+        top: 20px;
+        transform: translateX(290%) translateY(20%);
+    }
+    
+    .settingLink {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        position: relative;
+        left: 18%;
+        transform: translateX(-18%);
+    }
+    
+    .subscriptionButton {
+        background-color: blue;
+        border: 1px solid black;
+        position: relative;
+        height: 30px;
+        width: 145px;
+        top: 45px;
+        transform: translateY(45%);
+    }
+    
+    .subscriptionLink {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        left: 4px;
+        top: 2px;
+        transform: translateX(4%) translateY(2%);
+    }
+    
+    .filterButton {
+        background-color: blue;
+        border: 1px solid black;
+        position: relative;
+        height: 30px;
+        width: 100px;
+        left: 301px;
+        transform: translateX(301%);
+    }
+    
+    .filter {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        position: absolute;
+        left: 14px;
+        top: 3px;
+        transform: translateX(14%) translateY(3%);
+    }
+    
+    .messageButton {
+        background-color: blue;
+        border: 1px solid black;
+        position: relative;
+        height: 30px;
+        width: 100px;
+        left: 301px;
+        top: 15px;
+        transform: translateX(301%) translateY(15%);
+    }
+    
+    .message {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 23px;
+        text-align: center;
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        transform: translateX(4%) translateY(-3%);
+    }
+    
+    .profiles {
+        background-color: blue;
+        border: 1px solid black;
+        position: relative;
+        height: 700px;
+        width: 710px; 
+        left: 0px;
+        top: 10px;
+        transform: translateX(0%) translateY(10%);
+    }
+    
+    .ignoreButton {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        color: white;
+        height: 50px;
+        width: 110px;
+        left: 90px;
+        top: 410px;
+        transform: translateX(90%) translateY(410%);
+    }
+    
+    .requestButton {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        color: white;
+        height: 50px;
+        width: 110px;
+        left: 190px;
+        top: 410px;
+        transform: translateX(190%) translateY(410%);
+    }
+    
+    .photo {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 95px;
+        width: 95px;
+        border-radius: 30%;
+        left: 150px;
+        top: 3px;
+        transform: translateX(150%) translateY(3%);
+    }
+    
+    .profilePhoto {
+        border-radius: 30%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .nameLabel {
+        position: absolute;
+        margin-top: 3px;
+        margin-bottom: 2px;
+        color: white;
+        font-size: 23px;
+        left: 148px;
+        top: 85px;
+        transform: translateX(148%) translateY(85%);
+    }
+    
+    .name {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 25px;
+        width: 300px;
+        left: 49px;
+        top: 107px;
+        transform: translateX(49%) translateY(107%);
+    }
+    
+    .nameAPI {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .line {
+        background-color: white;
+        position: absolute;
+        height: 2px;
+        width: 710px;
+        left: 0px;
+        top: 160px;
+        transform: translateX(0%) translateY(160%);
+    }
+    
+    .rankLabel {
+        position: absolute;
+        margin-top: 4px;
+        margin-bottom: 2px;
+        color: white;
+        font-size: 23px;
+        left: 300px;
+        top: 170px;
+        transform: translateX(300%) translateY(170);
+    }
+    
+    .rank {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 25px;
+        width: 200px;
+        left: 81px;
+        top: 160px;
+        transform: translateX(81%) translateY(160%);
+    }
+    
+    .rankAPI {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .characterLabel {
+        position: absolute;
+        color: white;
+        font-size: 23px;
+        left: 144px;
+        top: 190px;
+        transform: translateX(144%) translateY(190%);
+    }
+    
+    .character1 {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+        left: 90px;
+        top: 145px;
+        transform: translateX(90%) translateY(145%);
+    }
+    
+    .characterPic1API {
+        border-radius: 50%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .character1API {
+        margin: 0;
+        padding: 0;
+        top: 2px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .character2 {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        margin: 10px;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+        left: 147px;
+        top: 141px;
+        transform: translateX(147%) translateY(141%);
+    }
+    
+    .characterPic2API {
+        border-radius: 50%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .character2API {
+        margin: 0;
+        padding: 0;
+        top: 2px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .character3 {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        margin: 10px;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+        left: 210px;
+        top: 141px;
+        transform: translateX(210%) translateY(141%);
+    }
+    
+    .characterPic3API {
+        border-radius: 50%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .character3API {
+        margin: 0;
+        padding: 0;
+        top: 2px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .positionLabel {
+        position: absolute;
+        color: white;
+        font-size: 23px;
+        left: 159px;
+        top: 325px;
+        transform: translateX(159%) translateY(325%);
+    }
+    
+    .position1 {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+        left: 120px;
+        top: 240px;
+        transform: translateX(120%) translateY(240%);
+    }
+    
+    .positionPic1API {
+        border-radius: 50%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .position1API {
+        margin: 0;
+        padding: 0;
+        top: 2px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .position2 {
+        background-color: black;
+        border: 1px solid white;
+        position: absolute;
+        height: 95px;
+        width: 95px;
+        border-radius: 50%;
+        left: 185px;
+        top: 240px;
+        transform: translateX(185%) translateY(240%);
+    }
+    
+    .positionPic2API {
+        border-radius: 50%;
+        height: 95px;
+        width: 95px;
+    }
+    
+    .position2API {
+        margin: 0;
+        padding: 0;
+        top: 2px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+    }
+}
