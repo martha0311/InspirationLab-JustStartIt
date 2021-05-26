@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('images/ashe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+}
+
+.profiles {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    height: 390px;
+    width: 500px; 
+    left: 63px;
+    top: 10px;
+    transform: translateX(63%) translateY(10%);
+}
+
+.profiles:hover {
+    box-shadow: 0 0 20px 0px rgb(255,160,99);
+}
+
+.yes {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 50px;
+    top: 270px;
+    transform: translateX(50%) translateY(270%);
+}
+
+.no {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    height: 30px;
+    width: 100px;
+    left: 150px;
+    top: 270px;
+    transform: translateX(150%) translateY(270%);
+}
+
+.photo {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+    left: 130px;
+    top: 3px;
+    transform: translateX(130%) translateY(3%);
+}
+
+.profilePhoto {
+    border-radius: 30%;
+    height: 60px;
+    width: 60px;
+}
+
+.line {
+    background-color: white;
+    position: absolute;
+    height: 2px;
+    width: 500px;
+    left: 0px;
+    top: 90px;
+    transform: translateX(0%) translateY(90%);
+}
+
+.rankLabel {
+    position: absolute;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    color: white;
+    top: 90px;
+    left: 115px;
+    transform: translateX(115%) translateY(90%);
+}
+
+.rank {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    height: 16px;
+    width: 100px;
+    left: 94px;
+    top: 115px;
+    transform: translateX(94%) translateY(115%);
+}
+
+.rankAPI {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.championLabel {
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    color: white;
+    left: 85px;
+    top: 140px;
+    transform: translateX(85%) translateY(140%);
+}
+
+.champion1 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 72px;
+    top: 130px;
+    transform: translateX(72%) translateY(130%);
+}
+
+.championPic1API {
+    border-radius: 50%;
+}
+
+.champion1API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.champion2 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 137px;
+    top: 130px;
+    transform: translateX(137%) translateY(130%);
+}
+
+.championPic2API {
+    border-radius: 50%;
+}
+
+.champion2API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.champion3 {
+    background-color: black;
+    border: 1px solid white;
+    position: absolute;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    left: 200px;
+    top: 130px;
+    transform: translateX(200%) translateY(130%);
+}
+
+.championPic3API {
+    border-radius: 50%;
+}
+
+.champion3API {
+    margin: 0;
+    padding: 0;
+    top: 2px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.positionLabel {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    left: 115px;
+    top: 240px;
+    transform: translateX(115%) translateY(240%);
+}

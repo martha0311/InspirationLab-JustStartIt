@@ -1,0 +1,8 @@
+<?php
+    include_once "./database.php";
+
+    $position = $_POST["positions"];
+    $rank = $_POST["ranks"];
+
+    insertQuery("INSERT INTO preferences (preferPosition, preferRank)
+    VALUES ('$position', '$rank')");
