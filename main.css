@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -13,30 +13,30 @@
     background-attachment: fixed;
 }
 
-nav{
+nav {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
 
-nav img{
+nav img {
     width: 150px;
 }
 
-.nav-links{
+.nav-links {
     flex: 1;
     text-align: right;
 }
 
-.nav-links ul li{
+.nav-links ul li {
     list-style: none;
     display: block;
     padding: 8px 12px;
     position: relative;
 }
 
-.nav-links ul li a{
+.nav-links ul li a {
     color: black;
     text-decoration: none;
     font-size: 16px;
@@ -63,23 +63,23 @@ nav .fas {
     cursor: pointer;
 }
 
-.nav-links ul{
+.nav-links ul {
     padding: 10px;
 }
 
-.nav-links ul li ul li{
+.nav-links ul li ul li {
     display: none;
 }
 
-.nav-links ul li:hover ul li{
+.nav-links ul li:hover ul li {
     display: block;
 }
 
-.nav-links ul li ul li ul li{
+.nav-links ul li ul li ul li {
     display: none;
 }
 
-.nav-links ul li ul li:hover ul li{
+.nav-links ul li ul li:hover ul li {
     display: block;
 }
 
@@ -109,7 +109,7 @@ nav .fas {
     border: 1px solid black;
 }
 
-.send:hover{
+.send:hover {
     border: 1px solid brown;
     background: brown;
     transition: 1s;
@@ -129,14 +129,14 @@ ul li:hover ul li {
     position: relative;
     border-radius: 10%;
     height: 390px;
-    width: 500px; 
+    width: 500px;
     left: 63px;
     top: 0px;
     transform: translateX(63%) translateY(0%);
 }
 
 .profiles:hover {
-    box-shadow: 0 0 20px 0px rgb(255,160,99);
+    box-shadow: 0 0 20px 0px rgb(255, 160, 99);
 }
 
 .ignoreButton {
@@ -152,7 +152,7 @@ ul li:hover ul li {
     transform: translateX(50%) translateY(270%);
 }
 
-.ignoreButton:hover{
+.ignoreButton:hover {
     border: 1px solid brown;
     background: brown;
     transition: 1s;
@@ -171,7 +171,7 @@ ul li:hover ul li {
     transform: translateX(150%) translateY(270%);
 }
 
-.requestButton:hover{
+.requestButton:hover {
     border: 1px solid brown;
     background: brown;
     transition: 1s;
@@ -424,23 +424,20 @@ ul li:hover ul li {
     .header {
         height: 250vh;
     }
-    
     .profiles {
         background-color: white;
         border: 1px solid black;
         position: relative;
         border-radius: 10%;
         height: 700px;
-        width: 710px; 
+        width: 710px;
         left: 0px;
         top: 10px;
         transform: translateX(0%) translateY(10%);
     }
-    
     .profiles:hover {
-        box-shadow: 0 0 20px 0px rgb(255,160,99);
+        box-shadow: 0 0 20px 0px rgb(255, 160, 99);
     }
-    
     .ignoreButton {
         background-color: lightsalmon;
         border: 1px solid black;
@@ -452,13 +449,11 @@ ul li:hover ul li {
         top: 410px;
         transform: translateX(90%) translateY(410%);
     }
-    
-    .ignoreButton:hover{
+    .ignoreButton:hover {
         border: 1px solid brown;
         background: brown;
         transition: 1s;
-    } 
-
+    }
     .requestButton {
         background-color: lightsalmon;
         border: 1px solid black;
@@ -470,13 +465,11 @@ ul li:hover ul li {
         top: 410px;
         transform: translateX(190%) translateY(410%);
     }
-    
-    .requestButton:hover{
+    .requestButton:hover {
         border: 1px solid brown;
         background: brown;
         transition: 1s;
-    } 
-
+    }
     .photo {
         background-color: black;
         border: 1px solid white;
@@ -488,13 +481,11 @@ ul li:hover ul li {
         top: 3px;
         transform: translateX(150%) translateY(3%);
     }
-    
     .profilePhoto {
         border-radius: 30%;
         height: 95px;
         width: 95px;
     }
-    
     .nameLabel {
         position: absolute;
         margin-top: 3px;
@@ -505,7 +496,6 @@ ul li:hover ul li {
         top: 85px;
         transform: translateX(148%) translateY(85%);
     }
-    
     .name {
         background-color: lightsalmon;
         border: 1px solid black;
@@ -516,7 +506,6 @@ ul li:hover ul li {
         top: 107px;
         transform: translateX(49%) translateY(107%);
     }
-    
     .nameAPI {
         margin: 0;
         padding: 0;
@@ -525,7 +514,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .line {
         background-color: black;
         position: absolute;
@@ -535,7 +523,6 @@ ul li:hover ul li {
         top: 160px;
         transform: translateX(0%) translateY(160%);
     }
-    
     .rankLabel {
         position: absolute;
         margin-top: 4px;
@@ -546,7 +533,6 @@ ul li:hover ul li {
         top: 170px;
         transform: translateX(300%) translateY(170);
     }
-    
     .rank {
         background-color: lightsalmon;
         border: 1px solid black;
@@ -557,7 +543,6 @@ ul li:hover ul li {
         top: 160px;
         transform: translateX(81%) translateY(160%);
     }
-    
     .rankAPI {
         margin: 0;
         padding: 0;
@@ -566,7 +551,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .characterLabel {
         position: absolute;
         color: black;
@@ -575,7 +559,6 @@ ul li:hover ul li {
         top: 190px;
         transform: translateX(144%) translateY(190%);
     }
-    
     .character1 {
         background-color: black;
         border: 1px solid white;
@@ -587,13 +570,11 @@ ul li:hover ul li {
         top: 145px;
         transform: translateX(90%) translateY(145%);
     }
-    
     .characterPic1API {
         border-radius: 50%;
         height: 95px;
         width: 95px;
     }
-    
     .character1API {
         margin: 0;
         padding: 0;
@@ -603,7 +584,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .character2 {
         background-color: black;
         border: 1px solid white;
@@ -616,13 +596,11 @@ ul li:hover ul li {
         top: 141px;
         transform: translateX(147%) translateY(141%);
     }
-    
     .characterPic2API {
         border-radius: 50%;
         height: 95px;
         width: 95px;
     }
-    
     .character2API {
         margin: 0;
         padding: 0;
@@ -632,7 +610,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .character3 {
         background-color: black;
         border: 1px solid white;
@@ -645,13 +622,11 @@ ul li:hover ul li {
         top: 141px;
         transform: translateX(210%) translateY(141%);
     }
-    
     .characterPic3API {
         border-radius: 50%;
         height: 95px;
         width: 95px;
     }
-    
     .character3API {
         margin: 0;
         padding: 0;
@@ -661,7 +636,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .positionLabel {
         position: absolute;
         color: black;
@@ -670,7 +644,6 @@ ul li:hover ul li {
         top: 325px;
         transform: translateX(159%) translateY(325%);
     }
-    
     .position1 {
         background-color: black;
         border: 1px solid white;
@@ -682,13 +655,11 @@ ul li:hover ul li {
         top: 240px;
         transform: translateX(120%) translateY(240%);
     }
-    
     .positionPic1API {
         border-radius: 50%;
         height: 95px;
         width: 95px;
     }
-    
     .position1API {
         margin: 0;
         padding: 0;
@@ -698,7 +669,6 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
-    
     .position2 {
         background-color: black;
         border: 1px solid white;
@@ -710,13 +680,11 @@ ul li:hover ul li {
         top: 240px;
         transform: translateX(185%) translateY(240%);
     }
-    
     .positionPic2API {
         border-radius: 50%;
         height: 95px;
         width: 95px;
     }
-    
     .position2API {
         margin: 0;
         padding: 0;
@@ -726,4 +694,94 @@ ul li:hover ul li {
         text-align: center;
         position: relative;
     }
+}
+
+
+/* ==========================================================================
+   #CSS MONOPOlY
+   ========================================================================== */
+
+.was-active {
+    display: none;
+}
+
+.card {
+    width: 22rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-title {
+    color: black;
+}
+
+.card-text {
+    color: black;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 1000%;
+    animation: gradient 15s ease infinite;
+    text-align: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.tinder--buttons {
+    flex: 0 0 100px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.tinder--buttons button {
+    border-radius: 50%;
+    line-height: 60px;
+    width: 60px;
+    border: 0;
+    background: #FFFFFF;
+    display: inline-block;
+    margin: 0 8px;
+}
+
+.tinder--buttons button:focus {
+    outline: 0;
+}
+
+.tinder--buttons i {
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.fa-heart {
+    color: #FFACE4;
+}
+
+.fa-thumbs-down {
+    color: #CDD6DD;
+}
+
+#love {
+    margin: 5px;
+}
+
+#nope {
+    margin: 5px;
 }
